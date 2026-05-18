@@ -1,0 +1,16 @@
+{
+  "name": "trainer-os-backend",
+  "version": "4.0.0",
+  "description": "Trainer OS Backend Automation System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "googleapis": "^134.0.0",
+    "twilio": "^5.0.4",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.4.5"
+  }
+}
